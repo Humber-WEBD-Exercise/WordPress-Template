@@ -1,0 +1,286 @@
+/*
+Theme Name: Minimal Theme
+Description: Demonstrates a minimal style of theme
+Version: 1.0
+Author: Qiongrong Jiang
+*/
+
+
+/************ 
+	basic 
+*************/
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Droid Sans', sans-serif;
+	color: #545454;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+p{
+	color: #666;
+}
+h1,
+h2 a,
+h3{
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	font-size: 65px;
+}
+h2{
+	font-size: 32px;
+}
+h3{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+input[type="submit"],
+textarea{
+	border:none;
+}
+
+/************ 
+	commons 
+*************/
+
+/**** visual *****/
+
+.post-date,
+.comments-link,
+.comment-meta a,
+#commentform p:first-child,
+.main-footer p{
+	color: #888;
+}
+.more-link,
+.reply a,
+#commentform p:first-child a{
+	color: rgba(255, 59, 47, 0.8);
+}
+nav,
+.post-categories,
+.post-content p,
+.comment-body p{
+	font-size: 16px;
+}
+input,
+textarea,
+.meta,
+.page-navigation a,
+.comment-meta,
+.reply a,
+#commentform p:first-child,
+.main-footer{
+	font-size: 14px;
+}
+.meta,
+.comment-body p{
+	line-height: 24px;
+}
+.post,
+.comment,
+.search-title{
+	border-bottom: 1px solid #f3f3f3;
+}
+.children,
+.main-footer{
+	border-top: 1px solid #f3f3f3;
+}
+nav .current-menu-item a,
+nav .menu-item a:hover,
+.post-categories a{
+	border-bottom: 1px solid #ff3b2f;
+}
+.widget_search input[type="submit"],
+#submit{
+	color: white;
+	background: #545454;
+	height: 36px;
+}
+
+/**** layout *****/
+.main-header,
+.main-container,
+.main-footer{
+	width: 1140px;
+	margin: 0 auto;
+}
+.screen-reader-text,
+.avatar{
+	display: block;
+}
+.main-content,
+.comment-author{
+	float: left;
+}
+aside,
+#submit{
+	float: right;
+}
+.main-content,
+aside{
+	padding: 0 15px;
+}
+.widget_search input[type="text"],
+#submit,
+#comment{
+	padding: 10px;
+}
+.screen-reader-text,
+.search-title{
+	padding-bottom: 20px;
+}
+.page-navigation,
+.commentlist{
+	margin-top: 50px;
+}
+.post-content p,
+.wp-post-image,
+.dec-line,
+.comment,
+.comment-meta,
+.comment-body p{
+	margin-bottom: 20px;
+}
+.main-container,
+.comment{
+	overflow: hidden;
+}
+.says,
+#author,
+#email,
+#url,
+label{
+	display: none;
+}
+
+
+/************ 
+	header 
+*************/
+.main-header{
+	border-bottom: 3px solid #545454;
+	margin-bottom: 100px;
+	padding: 100px 0;
+}
+nav .menu-item{
+	display: inline-block;
+	margin: 12px 20px 0 5px;
+}
+nav .menu-item a{
+	padding-bottom: 3px;
+}
+
+/**************** 
+	main-content 
+*****************/
+.main-content{
+	width: 720px;
+	margin:0 30px 100px 0;	
+}
+
+/**** post *****/
+.post{
+	padding: 40px 0 60px;
+	margin-bottom: 30px;
+}
+.post-categories {
+	margin-bottom: 13px;
+}
+.post-categories a{
+	padding-bottom: 3px;
+}
+.post-title{
+	padding-bottom: 10px;
+}
+.post-content{
+	margin:25px 0 50px;
+}
+.post-content p{
+	line-height: 28px;
+}
+.dec-line{
+	height: 1px;
+	width: 30px;
+	background: #dcdcdc;
+}
+
+/**** page navigation *****/
+.page-navigation a:hover{
+	color: #ff3b2f;
+}
+.prev-link{
+	margin-right: 20px;
+}
+
+/**** comment area *****/
+.comment{
+	padding: 15px 15px 35px;
+}
+.children{
+	margin: 20px 0 0 80px;
+}
+.children .comment{
+	border-bottom: none;
+	margin-top: 20px;
+	padding-bottom: 0;
+}
+.comment-author{
+	width: 70px;
+	margin: 0 20px 10px 0;
+	text-align: center;
+}
+.avatar{
+	width: 70px;
+	height: 70px;
+	margin-bottom: 8px;
+	border-radius: 35px;
+}
+.fn{
+	font-size: 12px;
+	font-style: normal;
+	word-wrap: break-word;
+}
+#respond{
+	margin-top: 100px;
+}
+#comment{
+	width: 700px;
+	background: #f3f3f3;
+	margin: 50px 0 20px;
+	height: 200px;
+}
+
+
+/************ 
+	aside
+*************/
+aside{
+	width: 329px;
+	border-left: 1px solid #f3f3f3;
+}
+/**** search *****/
+.widget_search{
+	padding: 40px 0 40px 30px;
+}
+.widget_search input[type="text"]{
+	height: 12px;
+	width: 150px;
+	margin-right: 12px;
+}
+.widget_search input[type="submit"]{
+	width: 80px;
+}
+
+
+/************ 
+	footer 
+*************/
+.main-footer{
+	padding: 20px 0 80px;
+}
